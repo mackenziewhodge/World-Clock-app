@@ -26,6 +26,7 @@ glasgowTimeElement.innerHTML=glasgowTime.format(
 }
 
 function updateCity(event) {
+  setInterval(function(){
  let cityTimeZone = event.target.value;
  if(cityTimeZone === "current"){
   cityTimeZone = moment.tz.guess();
@@ -40,7 +41,9 @@ function updateCity(event) {
           </div>
           <div class="time">${cityTime.format("h:mm:ss")}<small>${cityTime.format("A")}</small></div>
         </div>
+        <a href="/">Go Back</a>
         `;
+},1000);
 }
 updateTime();
 setInterval(updateTime, 1000);
