@@ -1,0 +1,56 @@
+body{
+  background: #f0ecf5ce;
+  font-family: "Rubik",sans-serif;
+}
+h1{
+  text-align: center;
+}
+h2{
+  margin:0 0 8px 0;
+  font-size: 30px;
+}
+select{
+  display: block;
+  width:100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+footer{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 12px;
+}
+.container{
+  max-width: 600px;
+  margin: 40px  auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow:10px 10px 10px rgba(0, 0,0, 0.2);
+  padding:20px;
+ 
+}
+.city{
+  display: flex;
+  margin:20px 0;
+  padding-bottom: 15px;
+  justify-content: space-between;
+  border-bottom: 2px dashed #f0ecf5ce ;
+}
+.city:last-child{
+  border:none;
+  padding-bottom: none;
+}
+.date{
+  opacity: 0.7;
+}
+.time{
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small{
+  font-size: 18px;
+  vertical-align: top;
+  line-height: 48px;
+}

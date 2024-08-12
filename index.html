@@ -3,31 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles.css" />
     <title>World Clock</title>
   </head>
   <body>
-    <h1>WORLD CLOCK</h1>
-    <select>
-      <option value="">Select a city..</option>
-      <option value="">London</option>
-      <option value="">Paris</option>
-      <option value="">Hong Kong</option>
-      <option value="">Mexico City</option>
-    </select>
+    <div class="container">
+      <h1>WORLD CLOCK</h1>
+      <select>
+        <option value="">Select a city..</option>
+        <option value="">London</option>
+        <option value="">Paris</option>
+        <option value="">Hong Kong</option>
+        <option value="">Mexico City</option>
+      </select>
 
-    <div class="city">
-      <h2>Toronto</h2>
-      <div class="date">Aug 12 2024</div>
-      <div class="time">02:50 PM</div>
+      <div class="city">
+        <div>
+          <h2>Toronto</h2>
+          <div class="date">Aug 12 2024</div>
+        </div>
+        <div class="time">02:50<small> PM</small></div>
+      </div>
+      <div class="city">
+        <div>
+          <h2>Glasgow</h2>
+          <div class="date">Aug 12 2024</div>
+        </div>
+        <div class="time">07:50<small> PM</small></div>
+      </div>
+      <div class="city">
+        <div>
+          <h2>Barcelona</h2>
+          <div class="date">Aug 12 2024</div>
+        </div>
+        <div class="time">08:50<small> PM</small></div>
+      </div>
     </div>
-
-    <div class="city">
-      <h2>Glasgow</h2>
-      <div class="date">Aug 12 2024</div>
-      <div class="time">07:50 PM</div>
-    </div>
-
     <footer>
       This projecet was coded by Mackenzie Hodge and is
       <a
