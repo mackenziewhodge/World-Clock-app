@@ -1,5 +1,8 @@
 body{
   background: #f0ecf5ce;
+  background-image: url(map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Rubik",sans-serif;
 }
 h1{
@@ -22,8 +25,9 @@ footer{
   font-size: 12px;
 }
 .container{
+  opacity: 0.8;
   max-width: 600px;
-  margin: 40px  auto;
+  margin: 80px  auto;
   background: #fff;
   border-radius: 12px;
   box-shadow:10px 10px 10px rgba(0, 0,0, 0.2);
